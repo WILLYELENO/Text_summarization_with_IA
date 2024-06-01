@@ -26,9 +26,7 @@ article_text = re.sub(r'\s+', ' ', article_text)
 formatted_article_text = re.sub('[^a-zA-Z]', ' ', article_text)
 formatted_article_text = re.sub(r'\s+', ' ', formatted_article_text)
 
-# Descargar recursos de NLTK si es necesario
-# nltk.download('punkt')
-# nltk.download('stopwords')
+
 
 # Tokenización de oraciones
 sentence_list = nltk.sent_tokenize(article_text)
