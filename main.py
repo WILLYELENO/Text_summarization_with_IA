@@ -1,4 +1,4 @@
-# Importar módulos necesarios
+# Importamos módulos necesarios
 
 from fuctions import fetch_article, preprocess_text, compute_word_frequencies, score_sentences, summarize_text, translate_text
 
